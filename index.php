@@ -121,7 +121,7 @@
 										<span>2015</span>
 									</td>
 									<td>
-										<a href="news-detail.php">
+										<a href="news.php">
 											<h3>Amazing Shanghai</h3>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
 										</a>
