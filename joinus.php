@@ -1,3 +1,4 @@
+<?php require('init.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,10 +74,12 @@ opportunity at  Innovation time Co.,Ltd.
 			$(".va-list a").click(function(e){
 				e.preventDefault();
 				var _click = $(this).parent();
-				if(_click.hasClass("active")){
-					$(this).find(".detail").slideUp();
-					$(this).removeClass("active");
+				if(_click.hasClass("active")==true){
+					console.log("hasclass");
+					_click.find(".detail").slideUp();
+					_click.removeClass("active");
 				}else{
+					console.log("noclass");
 					$(".va-list").find(".active").find(".detail").slideUp();
 					$(".va-list").find(".active").removeClass("active");
 					_click.find(".detail").slideDown();

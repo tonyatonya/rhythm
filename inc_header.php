@@ -25,12 +25,12 @@
 				<nav id="mainnav">
 					<ul>
 						<li><a href="index.php">HOME</a></li>
-						<li><a href="#">HISTORY</a></li>
-						<li><a href="#">NEWS & EVENT</a></li>
+						<li><a href="history.php">HISTORY</a></li>
+						<li><a href="news.php">NEWS & EVENT</a></li>
 						<li><a href="products.php">PRODUCTS</a></li>
-						<li><a href="#">WHERE TO BUY</a></li>
-						<li><a href="#">CONTACT US</a></li>
-						<li><a href="#">JOIN US</a></li>
+						<li><a href="wheretobuy.php">WHERE TO BUY</a></li>
+						<li><a href="contactus.php">CONTACT US</a></li>
+						<li><a href="joinus.php">JOIN US</a></li>
 					</ul>
 					<hr>
 				</nav>
