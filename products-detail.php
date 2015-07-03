@@ -1,6 +1,6 @@
 <?php require('init.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo($_SESSION['lang']); ?>">
 <head>
 <title>RHYTHM GLOBAL TIMEPIECE</title>
 <?php include('inc_head.php'); ?>
@@ -12,8 +12,8 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ol class="breadcrumb">
-					<li><a href="index.php">HOME</a></li>
-					<li><a href="products.php">PRODUCTS</a></li>
+					<li><a href="index.php"><?php echo($home); ?></a></li>
+					<li><a href="products.php"><?php echo($products); ?></a></li>
 					<li><a href="products-category.php">PRODUCTS CATEGORY NAME</a></li>
 					<li class="active">PRODUCTS NAME</li>
 				</ol>
@@ -43,36 +43,36 @@
 						<div class="col-lg-7 col-md-7 col-sm-7">
 							<div class="product-detail">
 								<div class="series">A1101S05 <input type="checkbox"></div>
-								<div class="price">PRICE : 2,170 THB</div>
-								<h3>Dimension</h3>
+								<div class="price"><?php echo($price); ?> : 2,170 <?php echo($baht); ?></div>
+								<h3><?php echo($dimension); ?></h3>
 								<table>
 									<tr>
-										<th>Width :</th>
+										<th><?php echo($width); ?> :</th>
 										<td>16.0</td>
 									</tr>
 									<tr>
-										<th>Height :</th>
+										<th><?php echo($height); ?> :</th>
 										<td>8.6</td>
 									</tr>
 									<tr>
-										<th>Deep :</th>
+										<th><?php echo($deep); ?> :</th>
 										<td>4.8</td>
 									</tr>
 									<tr>
-										<th>Weight :</th>
+										<th><?php echo($weight); ?> :</th>
 										<td>200</td>
 									</tr>
 									<tr>
-										<th>Battery :</th>
+										<th><?php echo($battery); ?> :</th>
 										<td>AAx2</td>
 									</tr>
 									<tr>
-										<th>Case :</th>
+										<th><?php echo($case); ?> :</th>
 										<td>White Case / Plastic Case</td>
 									</tr>
 								</table>
 								<hr>
-								<h3>Specifications</h3>
+								<h3><?php echo($specifications); ?></h3>
 								<p>
 									4 Steps Increasing Beep Alarm,Snooze,Hygrometer & Thermometer(-9.9~50 ?C/20~95%),Maximum & Minimum Reading Within 24Hrs Displayable,Alert Display For Heatstrock,Mould,Influenza & Food Poisoning,Super Silent Move.
 								</p>
@@ -81,7 +81,7 @@
 					</div>
 					<!-- relate products-->
 					<fieldset class="title-set">
-						<legend>RELATE PRODUCTS</legend>
+						<legend><?php echo($relatep); ?></legend>
 					</fieldset>
 					<div class="relate-products">
 						<div class="row product-list">

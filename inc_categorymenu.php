@@ -1,5 +1,5 @@
 <div class="sidemenu-section">
-	<h2>WATCH CATEGORIES</h2>
+	<h2><?php echo($WCat); ?></h2>
 	<ul class="side-menu">
 		<li><a href="products-category.php">EARTH SAVER</a></li>
 		<li><a href="products-category.php">SUPER MODEL</a></li>
@@ -16,7 +16,7 @@
 	</ul>
 	</div>
 <div class="sidemenu-section">
-	<h2>CLOCK CATEGORIES</h2>
+	<h2><?php echo($Ccat); ?></h2>
 	<ul class="side-menu">
 		<li><a href="products-category.php">BEEP ALARM CLOCKS</a></li>
 		<li><a href="products-category.php">BELL ALARM CLOCKS</a></li>

@@ -1,6 +1,6 @@
 <?php require('init.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo($_SESSION['lang']); ?>">
 <head>
 <title>RHYTHM GLOBAL TIMEPIECE</title>
 <?php include('inc_head.php'); ?>
@@ -12,22 +12,22 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ol class="breadcrumb">
-					<li><a href="index.php">HOME</a></li>
-					<li class="active">WHERE TO BUY</li>
+					<li><a href="index.php"><?php echo($home); ?></a></li>
+					<li class="active"><?php echo($where); ?></li>
 				</ol>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12 col-sm-12">
 				<fieldset class="title-set watch-slide">
-					<legend>WHERE TO BUY</legend>
+					<legend><?php echo($where); ?></legend>
 				</fieldset>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12 col-sm-12 col-md-12">
 				<figure class="where-banner">
-					<h3>Find us at Department stores </h3>
+					<h3><?php echo($findUs); ?></h3>
 					<img src="images/wheretobuybanner.jpg" alt="wheretobuybanner">
 				</figure>
 			</div>
@@ -47,7 +47,7 @@
 				</div>
 			</div>
 			<div class="col-lg-12 col-sm-12 notice-text">
-				Please Select Department Stores for More Detail
+				<?php echo($selectDep); ?>
 			</div>
 		</div>
 		<div class="row">

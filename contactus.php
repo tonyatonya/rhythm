@@ -1,6 +1,6 @@
 <?php require('init.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo($_SESSION['lang']); ?>">
 <head>
 <title>RHYTHM GLOBAL TIMEPIECE</title>
 <?php include('inc_head.php'); ?>
@@ -12,15 +12,15 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ol class="breadcrumb">
-					<li><a href="index.php">HOME</a></li>
-					<li class="active">CONTACT US</li>
+					<li><a href="index.php"><?php echo($home); ?></a></li>
+					<li class="active"><?php echo($contact); ?></li>
 				</ol>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12 col-sm-12">
 				<fieldset class="title-set watch-slide">
-					<legend>CONTACT US</legend>
+					<legend><?php echo($contact); ?></legend>
 				</fieldset>
 			</div>
 			<div class="col-lg-5 col-md-5 col-sm-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 contact-info">
@@ -28,26 +28,45 @@
 					<tr>
 						<td><span class="icon icon-location"></span></td>
 						<td>
-							เลขที่ 532 ซอยรัชดาภิเษก 26 แขวงสามเสนนอก เขตหัวยขวาง กทม. 10310
+							<?php if($_SESSION['lang'] == 'en'){ ?>
+								No. 532 Soi Ratchadapisek 26 Samsennork. Huay Kwang, Bangkok 10310
+							<?php }else{?>
+								เลขที่ 532 ซอยรัชดาภิเษก 26 แขวงสามเสนนอก เขตหัวยขวาง กทม. 10310
+							<?php }?>
+							
 						</td>
 					</tr>
 					<tr>
 						<td><span class="icon icon-clock"></span></td>
 						<td>
-							เวลาทำการ : จันทร์ - ศุกร์ เวลา 8.30-17.30
+							<?php if($_SESSION['lang'] == 'en'){ ?>
+								Office Hours: Monday - Friday 8.30 - 17.30.
+							<?php }else{?>
+								เวลาทำการ : จันทร์ - ศุกร์ เวลา 8.30-17.30
+							<?php }?>
+							
 						</td>
 					</tr>
 					<tr>
 						<td><span class="icon icon-mobile"></span></td>
 						<td>
+							<?php if($_SESSION['lang'] == 'en'){ ?>
+								Tel 0-2541-5112-3 
+							<?php }else{?>
+								โทรศัพท์ : 0-2541-5112-3
+							<?php }?>
 							
-							โทรศัพท์ : 0-2541-5112-3
 						</td>
 					</tr>
 					<tr>
 						<td><span class="icon icon-printer"></span></td>
 						<td>
-							โทรสาร : 0-2541-5029
+							<?php if($_SESSION['lang'] == 'en'){ ?>
+								Fax 0-2541-5029
+							<?php }else{?>
+								โทรสาร : 0-2541-5029
+							<?php }?>
+							
 						</td>
 					</tr>
 					<tr>
@@ -72,11 +91,11 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4  col-lg-offset-1 col-md-offset-1 col-sm-offset-1 contact-form">
-				<h3>CONTACT FORM</h3>
+				<h3><?php echo($contactF); ?></h3>
 				<table>
 					<tr>
 						<td>
-							<label>NAME</label>
+							<label><?php echo($cname); ?></label>
 						</td>
 					</tr>
 					<tr>
@@ -86,7 +105,7 @@
 					</tr>
 					<tr>
 						<td>
-							<label>e-mail</label>
+							<label><?php echo($cemail); ?></label>
 						</td>
 					</tr>
 					<tr>
@@ -96,7 +115,7 @@
 					</tr>
 					<tr>
 						<td>
-							<label>phone</label>
+							<label><?php echo($cPhone); ?></label>
 						</td>
 					</tr>
 					<tr>
@@ -106,7 +125,7 @@
 					</tr>
 					<tr>
 						<td>
-							<label>message</label>
+							<label><?php echo($cmessage); ?></label>
 						</td>
 					</tr>
 					<tr>
@@ -116,8 +135,8 @@
 					</tr>
 					<tr>
 						<td>
-							<button>SEND</button>
-							<button>CANCEL</button>
+							<button><?php echo($csend); ?></button>
+							<button><?php echo($ccancel); ?></button>
 						</td>
 					</tr>
 				</table>

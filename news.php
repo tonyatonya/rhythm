@@ -1,6 +1,6 @@
 <?php require('init.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo($_SESSION['lang']); ?>">
 <head>
 <title>RHYTHM GLOBAL TIMEPIECE</title>
 <?php include('inc_head.php'); ?>
@@ -12,15 +12,15 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ol class="breadcrumb">
-					<li><a href="index.php">HOME</a></li>
-					<li class="active">WHERE TO BUY</li>
+					<li><a href="index.php"><?php echo($home); ?></a></li>
+					<li class="active"><?php echo($news); ?></li>
 				</ol>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12 col-sm-12">
 				<fieldset class="title-set watch-slide">
-					<legend>NEWS & EVENT</legend>
+					<legend><?php echo($news); ?></legend>
 				</fieldset>
 			</div>
 		</div>
@@ -30,16 +30,16 @@
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-4 col">
 							<div class="input-group">
-								<input type="text" class="form-control" placeholder="Search News">
+								<input type="text" class="form-control" placeholder="<?php echo($searchnews); ?> ">
 								<span class="icon icon-search"></span>
 							</div>
 						</div>
 						<div class="col-lg-2 col-md-2 col-sm-2 col">
-							<button>SEARCH NOW</button>
+							<button><?php echo($searchnow); ?></button>
 						</div>
 						<div class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col">
 							<div class="price-lenght" style="text-align: right;">
-								<label>FILTER BY YEAR</label>
+								<label><?php echo($filterbyyear); ?></label>
 							</div>
 						</div>
 						<div class="col-lg-2 col-md-2 col-sm-2 col">
@@ -118,7 +118,7 @@
 					<ul class="pagination">
 					    <li>
 					      <a href="#" aria-label="Previous">
-					        <span aria-hidden="true">prev</span>
+					        <span aria-hidden="true"><?php echo($prev); ?></span>
 					      </a>
 					    </li>
 					    <li class="active"><a href="#">1</a></li>
@@ -128,11 +128,11 @@
 					    <li><a href="#">5</a></li>
 					    <li>
 					      <a href="#" aria-label="Next">
-					        <span aria-hidden="true">next</span>
+					        <span aria-hidden="true"><?php echo($next); ?></span>
 					      </a>
 					    </li>
 					  </ul>
-					<div>showing 1-36 of 124</div>
+					<div><?php echo($showing); ?> 1-36 <?php echo($of); ?> 124</div>
 				</nav>
 			</div>
 		</div>

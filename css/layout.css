@@ -1218,6 +1218,8 @@ aside.left-col h2 {
   padding-bottom: 10px;
   border-bottom: 1px dashed #929497;
   word-break: break-word;
+  font-size: 15px;
+  vertical-align: middle;
 }
 
 .contact-info table tr td span {
@@ -1225,7 +1227,11 @@ aside.left-col h2 {
 }
 
 .contact-info table tr td:first-child {
-  padding-right: 10px;
+  padding-right: 5px;
+}
+
+.contact-info table tr td a {
+  color: #929497;
 }
 
 .contact-info table tr:last-child td {
@@ -1725,6 +1731,33 @@ section.award {
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
+}
+
+.join-contact {
+  display: inline-block;
+  list-style: none;
+}
+
+.join-contact li {
+  float: left;
+}
+
+.join-contact li:after {
+  content: " | ";
+}
+
+.join-contact li:last-child:after {
+  content: "";
+}
+
+.join-contact li a {
+  font-size: 13px;
+  color: #929497;
+}
+
+.join-contact li .icon {
+  color: #929497;
+  font-size: 13px;
 }
 
 /******************* media query ********************/

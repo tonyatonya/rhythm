@@ -47,11 +47,7 @@
 					</ul>
 				</nav>
 				<address>
-					Innovation Time Company Limited.<br>
-					No. 532 Soi Ratchadapisek 26 Samsennork. Huay Kwang, Bangkok 10310<br>
-					Office Hours: Monday - Friday 8.30 - 17.30.<br>
-					Tel 0-2541-5112-3 Fax 0-2541-5029<br>
-					Copyright Innovation Time Company Limited. All rights reserved.
+					<?php echo($address); ?>
 				</address>
 				<ul class="foot-icon">
 					<li><a href="#"><img src="images/fbicon.png" alt="fbicon" width="32" height="32" /></a></li>

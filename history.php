@@ -1,6 +1,6 @@
 <?php require('init.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo($_SESSION['lang']); ?>">
 <head>
 <title>RHYTHM GLOBAL TIMEPIECE</title>
 <?php include('inc_head.php'); ?>
@@ -12,15 +12,15 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ol class="breadcrumb">
-					<li><a href="index.php">HOME</a></li>
-					<li class="active">HISTORY</li>
+					<li><a href="index.php"><?php echo($home); ?></a></li>
+					<li class="active"><?php echo($history); ?></li>
 				</ol>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12 col-sm-12">
 				<fieldset class="title-set watch-slide">
-					<legend>HISTORY</legend>
+					<legend><?php echo($history); ?></legend>
 				</fieldset>
 			</div>
 		</div>
@@ -71,7 +71,7 @@ Rywaco (Hong Kong) Co., Ltd. was established by Rhythm Watch-Japan invested 100%
 			<div class="row">
 				<div class="col-lg-12">
 					<fieldset class="title-set watch-slide">
-						<legend>OUR AWARD</legend>
+						<legend><?php echo($award); ?></legend>
 					</fieldset>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-2  col-sm-offset-2 award-slider">

@@ -10,8 +10,8 @@
 				</ul>
 			</div>
 			<div class="button">
-				<button class="clearlist">CLEAR ALL</button>
-				<button class="comparenow" onclick="window.location.href='products-compare.php'">COMPARE NOW</button>
+				<button class="clearlist"><?php echo($clearall);?></button>
+				<button class="comparenow" onclick="window.location.href='products-compare.php'"><?php echo($comparenow); ?></button>
 			</div>
 			</span>
 		</div>

@@ -1,6 +1,6 @@
 <?php require('init.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo($_SESSION['lang']); ?>">
 <head>
 <title>RHYTHM GLOBAL TIMEPIECE</title>
 <?php include('inc_head.php'); ?>
@@ -12,27 +12,25 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ol class="breadcrumb">
-					<li><a href="index.php">HOME</a></li>
-					<li class="active">JOIN US</li>
+					<li><a href="index.php"><?php echo($home); ?></a></li>
+					<li class="active"><?php echo($join); ?></li>
 				</ol>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12 col-sm-12">
 				<fieldset class="title-set watch-slide">
-					<legend>JOIN US</legend>
+					<legend><?php echo($join); ?></legend>
 				</fieldset>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
 				<h3 class="join-text">
-					Whatever your professional background  and whatever your ambitions
-for your future career, we’re confident that you can find the right
-opportunity at  Innovation time Co.,Ltd. 
+					<?php echo($jointext); ?> 
 				</h3>
 				<hr style="width: 20%; margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: 30px; border-color: #32220a;">
-				<h3 class="join-text" style="font-size:15px;">Vacancies</h3>
+				<h3 class="join-text" style="font-size:15px;"><?php echo($vacancies); ?></h3>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
 				<ul class="va-list">
@@ -42,7 +40,7 @@ opportunity at  Innovation time Co.,Ltd.
 							<table>
 								<tr>
 									<td>Marketing</td>
-									<td>2  capacities</td>
+									<td>2  <?php echo($jointext2); ?></td>
 									<td>10/10/2015</td>
 								</tr>
 							</table>
@@ -56,7 +54,14 @@ opportunity at  Innovation time Co.,Ltd.
 					</li>
 					<?php } ?>
 				</ul>
-				
+				<div class="clear" style="height: 30px;"></div>
+				<p style="text-indent: 0; text-align: center; width: 100%;"><?php echo($jointext2); ?></p>
+				<div style="text-align: center;"> 
+					<ul class="join-contact">
+						<li><span class="icon icon-phone"></span> <a href="tel:0-2541-5112-3">0-2541-5112-3</a></li>
+						<li><span class="icon icon-mail2"></span> <a href="mailto:hr@yourdomain.com">hr@yourdomain.com</a></li>
+					</ul>
+				</div>
 			</div>
 			
 		</div>

@@ -19,7 +19,7 @@
 						<input type="hidden" value="en" name="lang">
 						<?php } ?>
 						<a id="langsw">
-							<span class="icon icon-sphere"></span> TH/EN <?php echo($_SESSION['lang']); ?>
+							<span class="icon icon-sphere"></span> TH/EN
 						</a>
 						<script type="text/javascript">
 							$(function(){
@@ -39,13 +39,13 @@
 			<div class="col-lg-12 col-md-12 col-sm-12">
 				<nav id="mainnav">
 					<ul>
-						<li><a href="index.php">HOME</a></li>
-						<li><a href="history.php">HISTORY</a></li>
-						<li><a href="news.php">NEWS & EVENT</a></li>
-						<li><a href="products.php">PRODUCTS</a></li>
-						<li><a href="wheretobuy.php">WHERE TO BUY</a></li>
-						<li><a href="contactus.php">CONTACT US</a></li>
-						<li><a href="joinus.php">JOIN US</a></li>
+						<li><a href="index.php"><?php echo($home); ?></a></li>
+						<li><a href="history.php"><?php echo($history); ?></a></li>
+						<li><a href="news.php"><?php echo($news); ?></a></li>
+						<li><a href="products.php"><?php echo($products); ?></a></li>
+						<li><a href="wheretobuy.php"><?php echo($where); ?></a></li>
+						<li><a href="contactus.php"><?php echo($contact);?></a></li>
+						<li><a href="joinus.php"><?php echo($join); ?></a></li>
 					</ul>
 					<hr>
 				</nav>
@@ -72,13 +72,13 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       		<ul class="nav navbar-nav">
-	  			<li><a href="index.php">HOME</a></li>
-				<li><a href="history.php">HISTORY</a></li>
-				<li><a href="news.php">NEWS & EVENT</a></li>
-				<li><a href="products.php">PRODUCTS</a></li>
-				<li><a href="wheretobuy.php">WHERE TO BUY</a></li>
-				<li><a href="contactus.php">CONTACT US</a></li>
-				<li><a href="joinus.php">JOIN US</a></li>
+	  			<li><a href="index.php"><?php echo($home); ?></a></li>
+				<li><a href="history.php"><?php echo($history); ?></a></li>
+				<li><a href="news.php"><?php echo($news); ?></a></li>
+				<li><a href="products.php"><?php echo($products); ?></a></li>
+				<li><a href="wheretobuy.php"><?php echo($where); ?></a></li>
+				<li><a href="contactus.php"><?php echo($contact);?></a></li>
+				<li><a href="joinus.php"><?php echo($join); ?></a></li>
 				<li>
 					<form action="#" method="post" id="mbchangelang">
 						<div class="col-lg-2 col-md-2 langsw">

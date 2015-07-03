@@ -1,6 +1,6 @@
 <?php require('init.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo($_SESSION['lang']); ?>">
 <head>
 <title>RHYTHM GLOBAL TIMEPIECE</title>
 <?php include('inc_head.php'); ?>
@@ -12,7 +12,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ol class="breadcrumb">
-					<li><a href="index.php">HOME</a></li>
+					<li><a href="index.php"><?php echo($home); ?></a></li>
 					<li><a href="products.php">PRODUCTS</a></li>
 					<li class="active">PRODUCTS CATEGORY NAME</li>
 				</ol>
@@ -52,25 +52,25 @@
 					<?php } ?>
 				</div>
 					<nav class="pagenav">
-					<ul class="pagination">
-					    <li>
-					      <a href="#" aria-label="Previous">
-					        <span aria-hidden="true">prev</span>
-					      </a>
-					    </li>
-					    <li class="active"><a href="#">1</a></li>
-					    <li><a href="#">2</a></li>
-					    <li><a href="#">3</a></li>
-					    <li><a href="#">4</a></li>
-					    <li><a href="#">5</a></li>
-					    <li>
-					      <a href="#" aria-label="Next">
-					        <span aria-hidden="true">next</span>
-					      </a>
-					    </li>
-					  </ul>
-					<div>showing 1-36 of 124</div>
-				</nav>
+						<ul class="pagination">
+						    <li>
+						      <a href="#" aria-label="Previous">
+						        <span aria-hidden="true"><?php echo($prev); ?></span>
+						      </a>
+						    </li>
+						    <li class="active"><a href="#">1</a></li>
+						    <li><a href="#">2</a></li>
+						    <li><a href="#">3</a></li>
+						    <li><a href="#">4</a></li>
+						    <li><a href="#">5</a></li>
+						    <li>
+						      <a href="#" aria-label="Next">
+						        <span aria-hidden="true"><?php echo($next); ?></span>
+						      </a>
+						    </li>
+						  </ul>
+						<div><?php echo($showing); ?> 1-36 <?php echo($of); ?> 124</div>
+					</nav>
 				</div>
 			</div>
 			

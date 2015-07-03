@@ -1,6 +1,6 @@
 <?php require('init.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo($_SESSION['lang']); ?>">
 <head>
 <title>RHYTHM GLOBAL TIMEPIECE</title>
 <?php include('inc_head.php'); ?>
@@ -12,16 +12,16 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<ol class="breadcrumb">
-					<li><a href="index.php">HOME</a></li>
-					<li><a href="products.php">PRODUCTS</a></li>
-					<li class="active">COMPARE PRODUCTS</li>
+					<li><a href="index.php"><?php echo($home); ?></a></li>
+					<li><a href="products.php"><?php echo($products); ?></a></li>
+					<li class="active"><?php echo($comp); ?></li>
 				</ol>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12">
 				<fieldset class="title-set">
-					<legend>COMPARE</legend>
+					<legend><?php echo($comp); ?></legend>
 				</fieldset>
 			</div>
 		</div>
@@ -30,21 +30,21 @@
 				<aside class="left-col compare-left">
 					<div class="compare-menu">
 						<span>
-							<h3>WATCH SELECTED</h3>
+							<h3><?php echo($wSelect); ?></h3>
 							<div class="clear"></div>
-							<a href="products.php">BACK TO PRODUCTS PAGE</a>
+							<a href="products.php"><?php echo($backproducts); ?></a>
 						</span>
 					</div>
 					
 					<div class="table-hold desktop">
 						<table>
-							<tr><td>Width :</td></tr>
-							<tr><td>Height :</td></tr>
-							<tr><td>Deep :</td></tr>
-							<tr><td>Weight :</td></tr>
-							<tr><td>Battery :</td></tr>
-							<tr><td>Case :</td></tr>
-							<tr><td>Specifications :</td></tr>
+							<tr><td><?php echo($width); ?> :</td></tr>
+							<tr><td><?php echo($height); ?> :</td></tr>
+							<tr><td><?php echo($deep); ?> :</td></tr>
+							<tr><td><?php echo($weight); ?> :</td></tr>
+							<tr><td><?php echo($battery); ?> :</td></tr>
+							<tr><td><?php echo($case); ?> :</td></tr>
+							<tr><td><?php echo($specifications); ?> :</td></tr>
 						</table>
 					</div>
 				</aside>
@@ -64,12 +64,12 @@
 											A1101S05 | 11000 THB
 										</div>
 										<table>
-											<tr><td>Width :</td><td>16.0</td></tr>
-											<tr><td>Height :</td><td>8.6</td></tr>
-											<tr><td>Deep :</td><td>4.8</td></tr>
-											<tr><td>Weight :</td><td>200</td></tr>
-											<tr><td>Battery :</td><td>AAx2</td></tr>
-											<tr><td>Case :</td><td>White Case / Plastic Case</td></tr>
+											<tr><td><?php echo($width); ?> :</td><td>16.0</td></tr>
+											<tr><td><?php echo($height); ?> :</td><td>8.6</td></tr>
+											<tr><td><?php echo($deep); ?> :</td><td>4.8</td></tr>
+											<tr><td><?php echo($weight); ?> :</td><td>200</td></tr>
+											<tr><td><?php echo($battery); ?> :</td><td>AAx2</td></tr>
+											<tr><td><?php echo($case); ?> :</td><td>White Case / Plastic Case</td></tr>
 										</table>
 										<p>
 											4 Steps Increasing Beep Alarm,Snooze,Hygrometer & Thermometer(-9.9~50 ?C/20~95%),Maximum & Minimum Reading Within 24Hrs Displayable,Alert Display For Heatstrock,Mould,Influenza & Food Poisoning,Super Silent Move.
@@ -87,7 +87,7 @@
 		<div class="row product-list">
 			<div class="col-lg-12">
 				<fieldset class="title-set">
-					<legend>YOU MAY ALSO LIKE</legend>
+					<legend><?php echo($youmaylike); ?></legend>
 				</fieldset>
 			</div>
 			<div class="clear" style="height: 15px;"></div>

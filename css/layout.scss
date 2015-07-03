@@ -1149,11 +1149,16 @@ aside{
 				padding-bottom: 10px;
 				border-bottom: 1px dashed #929497;
 				word-break: break-word;
+				font-size: 15px;
+				vertical-align: middle;
 				span{
 					font-size: 32px;
 				}
 				&:first-child{
-					padding-right: 10px;
+					padding-right: 5px;
+				}
+				a{
+					color: #929497;
 				}
 			}
 			&:last-child{
@@ -1609,6 +1614,29 @@ section.award{
 				-o-transition: all 0.3s ease-in;
 				transition: all 0.3s ease-in;
 			}
+		}
+	}
+}
+.join-contact{
+	display: inline-block;
+	list-style: none;
+	li{
+		float: left;
+		&:after{
+			content: " | ";
+		}
+		&:last-child{
+			&:after{
+				content: "";
+			}
+		}
+		a{
+			font-size: 13px;
+			color: #929497;
+		}
+		.icon{
+			color: #929497;
+			font-size: 13px;
 		}
 	}
 }

@@ -1,6 +1,6 @@
 <?php require('init.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo($_SESSION['lang']); ?>">
 <head>
 <title>RHYTHM GLOBAL TIMEPIECE</title>
 <?php include('inc_head.php'); ?>
@@ -26,7 +26,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<fieldset class="title-set watch-slide">
-						<legend>FEATURE  WATCH</legend>
+						<legend><?php echo($featureW); ?></legend>
 					</fieldset>
 					<div class="watch-slide">
 						<div class="watch-frame">
@@ -72,7 +72,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<fieldset class="title-set watch-slide">
-						<legend>FEATURE  CLOCK</legend>
+						<legend><?php echo($featureC); ?></legend>
 					</fieldset>
 					
 				</div>
@@ -110,7 +110,7 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-4">
 				<article class="news-list news-list-home">
-					<h2 class="box-title">NEWS & ACTIVITIES</h2>
+					<h2 class="box-title"><?php echo($news); ?></h2>
 					<ul>
 						<?php for($i=0;$i<3;$i++){ ?>
 						<li>
@@ -132,28 +132,28 @@
 						</li>
 						<?php } ?>
 					</ul>
-					<a class="learnmore">LEARN MORE</a>
+					<a class="learnmore" href="news.php"><?php echo($learnmore); ?></a>
 				</article>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4">
 				<article class="history-home">
-					<h2 class="box-title">OUR HISTORY</h2>
+					<h2 class="box-title"><?php echo($outhistory); ?></h2>
 					
 					<img src="images/historybanner.jpg" alt="historybanner" style="width:100%; height: auto;">
 					<p>
 						Rhythm Watch Co., Ltd.-Japan was established in Japan in 1950. During that time, Rhythm was the leader of producing world time telling machine which produced more than 20 millions clocks and time telling  tools around the world until in the year 1963, Rhythm Watch – Japan registered itself in the stock market of Japan.
 					</p>
-					<a class="learnmore">LEARN MORE</a>
+					<a class="learnmore" href="history.php"><?php echo($learnmore); ?></a>
 				</article>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4">
 				<article class="wheretobuy-home">
-					<h2 class="box-title">WHERE TO BUY</h2>
+					<h2 class="box-title"><?php echo($where); ?></h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
 					</p>
 					<img src="images/shopbanner.jpg" alt="shopbanner" style="margin-bottom: 20px; width: 100%; height: auto; max-width: 360px;">
-					<a class="learnmore">LEARN MORE</a>
+					<a class="learnmore" href="wheretobuy.php"><?php echo($learnmore); ?></a>
 				</article>
 			</div>
 		</div>
