@@ -28,21 +28,21 @@
 			<div class="col-lg-12">
 				<div class="search-bar news-search">
 					<div class="row">
-						<div class="col-lg-4 col-md-4 col">
+						<div class="col-lg-4 col-md-4 col-sm-4 col">
 							<div class="input-group">
 								<input type="text" class="form-control" placeholder="Search News">
 								<span class="icon icon-search"></span>
 							</div>
 						</div>
-						<div class="col-lg-2 col-md-2 col">
+						<div class="col-lg-2 col-md-2 col-sm-2 col">
 							<button>SEARCH NOW</button>
 						</div>
-						<div class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2 col">
+						<div class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col">
 							<div class="price-lenght" style="text-align: right;">
 								<label>FILTER BY YEAR</label>
 							</div>
 						</div>
-						<div class="col-lg-2 col-md-2 col">
+						<div class="col-lg-2 col-md-2 col-sm-2 col">
 							<div class="input-group" style="margin-left: 0; margin-right: 0;">
 								<select>
 									<option></option>
@@ -55,7 +55,7 @@
 		</div>
 		<section class="first-news">
 			<div class="row">
-				<div class="col-md-1 col-lg-1">
+				<div class="col-md-1 col-lg-1 col-sm-1">
 					<div class="news-date">
 						<table>
 							<tr>
@@ -68,12 +68,12 @@
 						</table>
 					</div>
 				</div>
-				<div class="col-md-4 col-lg-4">
+				<div class="col-md-4 col-lg-4 col-sm-4">
 					<figure class="news-mainimg">
 						<img src="images/exampleimg.jpg" alt="exampleimg">
 					</figure>
 				</div>
-				<div class="col-md-7 col-lg-7">
+				<div class="col-md-7 col-lg-7 col-sm-7">
 					<article>
 						<h3 class="news-title">Amazing Shanghai</h3>
 						<p>

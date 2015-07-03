@@ -77,7 +77,7 @@
 					
 				</div>
 				
-				<div class="col-lg-6 col-md-6">
+				<div class="col-lg-6 col-md-6 col-sm-6">
 					<a href="products-detail.php">
 					<div class="clock-child">
 						<figure>
@@ -90,7 +90,7 @@
 					</div>
 					</a>
 				</div>
-				<div class="col-lg-6 col-md-6">
+				<div class="col-lg-6 col-md-6 col-sm-6">
 					<a href="products-detail.php">
 					<div class="clock-child">
 						<figure>
@@ -108,7 +108,7 @@
 	</section>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 col-md-4">
+			<div class="col-lg-4 col-md-4 col-sm-4">
 				<article class="news-list news-list-home">
 					<h2 class="box-title">NEWS & ACTIVITIES</h2>
 					<ul>
@@ -135,7 +135,7 @@
 					<a class="learnmore">LEARN MORE</a>
 				</article>
 			</div>
-			<div class="col-lg-4 col-md-4">
+			<div class="col-lg-4 col-md-4 col-sm-4">
 				<article class="history-home">
 					<h2 class="box-title">OUR HISTORY</h2>
 					
@@ -146,13 +146,13 @@
 					<a class="learnmore">LEARN MORE</a>
 				</article>
 			</div>
-			<div class="col-lg-4 col-md-4">
+			<div class="col-lg-4 col-md-4 col-sm-4">
 				<article class="wheretobuy-home">
 					<h2 class="box-title">WHERE TO BUY</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
 					</p>
-					<img src="images/shopbanner.jpg" alt="shopbanner" width="360" height="203" style="margin-bottom: 20px;">
+					<img src="images/shopbanner.jpg" alt="shopbanner" style="margin-bottom: 20px; width: 100%; height: auto; max-width: 360px;">
 					<a class="learnmore">LEARN MORE</a>
 				</article>
 			</div>
@@ -197,9 +197,11 @@
 		        
 	        }
 	        var maxShow = (bokeh - stageShow);
+	        console.log("maxShow = ",maxShow);
 	        //setup train
+	        console.log("childW = ",childW ," bokeh = ", bokeh," childW * bokeh = ",childW * bokeh );
 	        train.css({
-		        'width': childW * bokeh
+		        'width': childW * bokeh + 270
 	        })
 	        // slide control
 	        left.click(function(e){

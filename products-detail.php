@@ -27,20 +27,20 @@
 		<?php include("inc_comparenamelist.php"); ?>
 		<?php include("inc_searchbar.php");?>
 		<div class="row">
-			<div class="col-lg-3 col-md-3">
+			<div class="col-lg-3 col-md-3 col-sm-3">
 				<aside class="left-col">
 					<?php include('inc_categorymenu.php'); ?>
 				</aside>
 			</div>
-			<div class="col-lg-9 col-md-9">
+			<div class="col-lg-9 col-md-9 col-sm-9">
 				<div class="right-col">
 					<div class="row">
-						<div class="col-lg-5 col-md-5">
+						<div class="col-lg-5 col-md-5 col-sm-5">
 							<figure class="main-product-img">
 								<img src="images/sample_productimg.jpg" alt="sample_productimg">
 							</figure>
 						</div>
-						<div class="col-lg-7 col-md-7">
+						<div class="col-lg-7 col-md-7 col-sm-7">
 							<div class="product-detail">
 								<div class="series">A1101S05 <input type="checkbox"></div>
 								<div class="price">PRICE : 2,170 THB</div>
@@ -86,7 +86,7 @@
 					<div class="relate-products">
 						<div class="row product-list">
 					<?php for($i=0;$i<3;$i++){ ?>
-						<div class="col-lg-4 col-md-4">
+						<div class="col-lg-4 col-md-4 col-sm-4">
 							<a href="products-detail.php">
 							<div class="product-child">
 								<figure>

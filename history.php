@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-4 col-md-4 col-lg-offset-2 col-md-offset-2 img-col">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 img-col">
 				
 				<div class="vdo">
 					<iframe src="https://www.youtube.com/embed/KOmvZr4GiBw" frameborder="0" allowfullscreen></iframe>
@@ -34,7 +34,7 @@
 					<img src="images/examplehistoryimg.jpg" alt="examplehistoryimg">
 				</figure>
 			</div>
-			<div class="col-lg-4 col-md-4 history-text">
+			<div class="col-lg-4 col-md-4 col-sm-4 history-text">
 				<h3>
 					Rhythm Watch Co., Ltd.-Japan was established in Japan in 1950
 					<hr style="width: 20%; margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: 30px; border-color: #32220a;">
@@ -74,8 +74,8 @@ Rywaco (Hong Kong) Co., Ltd. was established by Rhythm Watch-Japan invested 100%
 						<legend>OUR AWARD</legend>
 					</fieldset>
 				</div>
-				<div class="col-lg-4 col-md-4 col-lg-offset-2 col-md-offset-2">
-					<div class="award-slider">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-2  col-sm-offset-2 award-slider">
+					
 						<a href="#" class="award-nav award-nav-left">
 							<img src="images/award-left.png" alt="award-left" width="19" height="36">
 						</a>
@@ -84,30 +84,100 @@ Rywaco (Hong Kong) Co., Ltd. was established by Rhythm Watch-Japan invested 100%
 						</a>
 						<div class="award-frame">
 							<ul class="train">
-								<?php for($i=0;$i<5;$i++){ ?>
-								<li><a href="#" class="award-img"><img src="images/award.png" alt="award"></a></li>
-								<?php } ?>
+								<li>
+									
+										<img src="images/award/bestgrowing.png" alt="Best Growing Agent Award " >
+									
+								</li>
+								<li>
+
+										<img src="images/award/mostcreative.png" alt="Most Creative Agent Award" >
+
+								</li>
+								<li>
+
+										<img src="images/award/world1_2009.png" alt="World No.1 Growing Agent Award" >
+
+								</li>
+								<li>
+
+										<img src="images/award/world1_2010.png" alt="World No.1Growing Agent Award" >
+
+								</li>
+								<li>
+
+										<img src="images/award/thebestbusiness.png" alt="The Best Business Model Award" >
+
+								</li>
+								<li>
+
+										<img src="images/award/superdistributor.png" alt="Super Distributor Award 2012" >
+
+								</li>						
 							</ul>
 						</div>
-					</div>
+					
 				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="award-content-slider">
+				<div class="col-lg-4 col-md-4 col-sm-4 award-content-slider">
 						<div class="award-content-slider-frame">
-								<?php for($i=0;$i<5;$i++){ ?>
+
 								<div class="content-child">
 									<h3>
-										Best Growing Agent Award in 1950
+										Best Growing Agent Award 
 									</h3>
 									<hr style="width: 20%; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px; border-color: #32220a;">
 									<p>
 										Best Growing Agent Award as Rhythm’s agent that can be able to run its business fast growing within 2 years,  This award received from Rhywaco (H.K.) Co., Ltd. who is responsible  for marketing and sales around the world.
 									</p>
 								</div>
-								<?php } ?>
+								<div class="content-child">
+									<h3>
+										Most Creative Agent Award 
+									</h3>
+									<hr style="width: 20%; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px; border-color: #32220a;">
+									<p>
+										Most Creative Agent Award as Rhythm’s agent that having  creative thinking and modern idea for its growing business.  This award received from Rhywaco (H.K,) Co.,Ltd., who is responsible for marketing and sales of Rhythm Clocks around the world.
+									</p>
+								</div>
+								<div class="content-child">
+									<h3>
+										World No.1 Growing Agent Award 
+									</h3>
+									<hr style="width: 20%; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px; border-color: #32220a;">
+									<p>
+										World No. 1 Growing Agent Award 2009 as Rhythm’s agent that is growing No. 1 in the world.  This award received from Rhywaco (H.K.) Co.,Ltd. who is responsible for marketing and sales of Rhythm Clocks around the world.
+									</p>
+								</div>
+								<div class="content-child">
+									<h3>
+										World No.1Growing Agent Award 
+									</h3>
+									<hr style="width: 20%; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px; border-color: #32220a;">
+									<p>
+										World No 1. Growing Agent Award 2010 as Rhythm’s agent that is growing No. 1 in the world in consecutive year.  This award received from Rhywaco (H.K.) co., Ltd. who is responsible for marketing and sales of Rhythm clocks around the world.
+									</p>
+								</div>
+								
+								<div class="content-child">
+									<h3>
+										The Best Business Model Award 
+									</h3>
+									<hr style="width: 20%; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px; border-color: #32220a;">
+									<p>
+										The Best Business Modern Award as Rhythm’s agent that having good business plan to be good sample for other international Rhythm’ agents.  This award received from Rhywaco (H.K.) Co., Ltd. who is responsible for marketing and sales of Rhythm clocks around the world.
+									</p>
+								</div>
+								<div class="content-child">
+									<h3>
+										Super Distributor Award 2012
+									</h3>
+									<hr style="width: 20%; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px; border-color: #32220a;">
+									<p>
+										Super Distributor Award 2012  presented by Rhywaco (H.K.) Co., Ltd. who is responsiblefor marketing and sales of Rhythm clocks around the world,  This award received as agent that manage itself the best.
+									</p>
+								</div>
 							
 						</div>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -121,12 +191,9 @@ Rywaco (Hong Kong) Co., Ltd. was established by Rhythm Watch-Japan invested 100%
 			
 			// set equal height
 			if($(".navbar-default").height()==0){
-				$(".award-img").colorbox({
-					width: '75%',
-					height: 'auto'
-				})
+				
 			}else{
-				$(".award-img").colorbox();
+				
 			}
 			
 			var train = $("ul.train");
@@ -166,5 +233,10 @@ Rywaco (Hong Kong) Co., Ltd. was established by Rhythm Watch-Japan invested 100%
 			})
 		})
 	</script>
+	<style>
+		footer{
+			margin: 0;
+		}
+	</style>
 </body>
 </html>

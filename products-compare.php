@@ -26,7 +26,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-3 col-md-3">
+			<div class="col-lg-3 col-md-3 col-sm-3">
 				<aside class="left-col compare-left">
 					<div class="compare-menu">
 						<span>
@@ -49,12 +49,12 @@
 					</div>
 				</aside>
 			</div>
-			<div class="col-lg-9 col-md-9">
+			<div class="col-lg-9 col-md-9 col-sm-9">
 				<div class="right-col">
 					<div class="compare-list">
 								<div class="row">
 								<?php for($i=0;$i<4;$i++){ ?>
-									<div class="col-lg-4 col-md-4 compare-child product-list">
+									<div class="col-lg-4 col-md-4 col-sm-4 compare-child product-list">
 									<div class="product-child">
 										<figure>
 											<img src="images/sample_productimg.jpg" alt="sample_productimg" width="264" height="345">
@@ -92,7 +92,7 @@
 			</div>
 			<div class="clear" style="height: 15px;"></div>
 			<?php for($i=0;$i<4;$i++){ ?>
-				<div class="col-lg-3 col-md-3">
+				<div class="col-lg-3 col-md-3 col-sm-3">
 					<a href="products-detail.php">
 						<div class="product-child">
 						<figure>

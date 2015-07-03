@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
 				<h3 class="join-text">
 					Whatever your professional background  and whatever your ambitions
 for your future career, we’re confident that you can find the right
@@ -34,7 +34,7 @@ opportunity at  Innovation time Co.,Ltd.
 				<hr style="width: 20%; margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: 30px; border-color: #32220a;">
 				<h3 class="join-text" style="font-size:15px;">Vacancies</h3>
 			</div>
-			<div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
 				<ul class="va-list">
 					<?php for($i=0;$i<5;$i++){ ?>
 					<li>

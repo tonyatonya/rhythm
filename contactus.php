@@ -23,7 +23,7 @@
 					<legend>CONTACT US</legend>
 				</fieldset>
 			</div>
-			<div class="col-lg-5 col-md-5 col-lg-offset-1 col-md-offset-1 contact-info">
+			<div class="col-lg-5 col-md-5 col-sm-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 contact-info">
 				<table class="table">
 					<tr>
 						<td><span class="icon icon-location"></span></td>
@@ -71,7 +71,7 @@
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.6565868359094!2d100.57573880000004!3d13.799563800000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29e7000000001%3A0x55e3a56244670c13!2z4Lit4Li04LiZ4LmC4LiZ4LmA4Lin4LiK4Lix4LmI4LiZIOC5hOC4l-C4oeC5jCAo4Liq4Liy4LiC4LiyMSk!5e0!3m2!1sth!2sth!4v1435805265505"  frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-5 col-lg-offset-1 col-md-offset-1 contact-form">
+			<div class="col-lg-4 col-md-4 col-sm-4  col-lg-offset-1 col-md-offset-1 col-sm-offset-1 contact-form">
 				<h3>CONTACT FORM</h3>
 				<table>
 					<tr>

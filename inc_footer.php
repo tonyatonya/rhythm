@@ -2,7 +2,7 @@
 	<hr>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 col-md-3 categorymenu">
+			<div class="col-lg-3 col-md-3 col-sm-3 categorymenu">
 				<h2>WATCH</h2>
 				<ul>
 					<li><a href="products-category.php">EARTH SAVER</a></li>
@@ -19,7 +19,7 @@
 					<li><a href="products-category.php">TRADITIONAL</a></li>
 				</ul>
 			</div>
-			<div class="col-lg-3 col-md-3 categorymenu">
+			<div class="col-lg-3 col-md-3 col-sm-3 categorymenu">
 				<h2>CLOCK</h2>
 				<ul>
 					<li><a href="products-category.php">BEEP ALARM CLOCKS</a></li>
@@ -34,7 +34,7 @@
 					<li><a href="products-category.php">WOODEN CLOCKS</a></li>
 				</ul>
 			</div>
-			<div class="col-lg-6 col-md-6 bottomfooter">
+			<div class="col-lg-6 col-md-6 col-sm-6 bottomfooter">
 				<nav id="footernav">
 					<ul>
 						<li><a href="index.php">HOME</a></li>
