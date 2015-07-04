@@ -323,6 +323,7 @@ footer address {
 
 footer .foot-icon {
   list-style: none;
+  float: right;
 }
 
 footer .foot-icon li {
@@ -393,7 +394,7 @@ fieldset.title-set legend {
   background-position: left center;
 }
 
-.clockslider .title-set {
+.clockslider .title-set, .clockslider .section-title {
   margin-top: 70px;
   margin-bottom: 75px;
 }
@@ -522,7 +523,7 @@ fieldset.title-set legend {
   padding-bottom: 60px;
 }
 
-.featureclock .title-set {
+.featureclock .title-set, .featureclock .section-title {
   margin-top: 55px;
   margin-bottom: 88px;
 }
@@ -1777,6 +1778,8 @@ section.award {
   color: #a8a318;
   font-size: 28px;
   font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .section-title:after, .section-title:before {

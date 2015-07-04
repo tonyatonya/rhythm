@@ -18,7 +18,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12 col-sm-12">
+			<div class="col-lg-12 col-sm-12" style="margin-bottom: 30px;">
 <!--
 				<fieldset class="title-set watch-slide">
 					<legend><?php echo($history); ?></legend>
@@ -73,9 +73,12 @@ Rywaco (Hong Kong) Co., Ltd. was established by Rhythm Watch-Japan invested 100%
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
+<!--
 					<fieldset class="title-set watch-slide">
 						<legend><?php echo($award); ?></legend>
 					</fieldset>
+-->
+					<h2 class="section-title"><span><?php echo($award); ?></span></h2>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-2  col-sm-offset-2 award-slider">
 					

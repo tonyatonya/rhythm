@@ -335,6 +335,7 @@ footer{
 	}
 	.foot-icon{
 		list-style: none;
+		float: right;
 		li{
 			margin-left: 10px;
 			float: right;
@@ -409,7 +410,7 @@ fieldset{
 	background-image: url(../images/clocksliderbg.jpg);
 	background-repeat: repeat-x;
 	background-position: left center;
-	.title-set{
+	.title-set, .section-title{
 		margin-top: 70px;
 		margin-bottom: 75px;
 	}
@@ -527,7 +528,7 @@ fieldset{
 }
 .featureclock{
 	padding-bottom: 60px;
-	.title-set{
+	.title-set ,.section-title{
 		margin-top: 55px;
 		margin-bottom: 88px;	
 	}
@@ -1654,6 +1655,8 @@ section.award{
 	color: $gold;
     font-size: 28px;
     font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
 	&:after,&:before{
 		display: table-cell;
 		width: 50%;
