@@ -850,6 +850,7 @@ aside.left-col h2 {
   font-size: 14px;
   padding: 10px;
   margin: 0;
+  margin-bottom: 1px;
 }
 
 .side-menu {
@@ -1887,7 +1888,7 @@ section.award {
     padding-bottom: 0;
     margin-top: 30px;
   }
-  .featureclock .title-set {
+  .featureclock .title-set, .featureclock .section-title {
     margin-bottom: 30px;
   }
   .featureclock .clock-child {
@@ -1929,7 +1930,7 @@ section.award {
     min-height: 0;
     height: auto;
   }
-  .clockslider .title-set {
+  .clockslider .title-set, .clockslider .section-title {
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -2060,8 +2061,8 @@ section.award {
     padding-left: 0;
     padding-right: 0;
   }
-  .section-title > span {
-    white-space: normal;
+  .section-title {
+    font-size: 25px;
   }
 }
 
@@ -2575,7 +2576,7 @@ section.award {
     padding-bottom: 0;
     margin-top: 30px;
   }
-  .featureclock .title-set {
+  .featureclock .title-set, .featureclock .section-title {
     margin-bottom: 30px;
   }
   .featureclock .clock-child {
@@ -2612,7 +2613,7 @@ section.award {
     min-height: 0;
     height: auto;
   }
-  .clockslider .title-set {
+  .clockslider .title-set, .clockslider .section-title {
     margin-top: 30px;
     margin-bottom: 30px;
   }

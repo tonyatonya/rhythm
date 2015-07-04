@@ -824,6 +824,7 @@ aside{
 			font-size: 14px;
 			padding: 10px;
 			margin: 0;
+			margin-bottom: 1px;
 		}
 	}
 }
@@ -1780,7 +1781,7 @@ and (max-device-width : 480px) {
 	.featureclock{
 		padding-bottom: 0;
 		margin-top: 30px;
-		.title-set{
+		.title-set,.section-title{
 			margin-bottom: 30px;
 		}
 		.clock-child{
@@ -1836,7 +1837,7 @@ and (max-device-width : 480px) {
 	.clockslider{
 		min-height: 0;
 		height: auto;
-		.title-set{
+		.title-set,.section-title{
 			margin-top: 30px;
 			margin-bottom: 30px;
 		}
@@ -2003,9 +2004,7 @@ and (max-device-width : 480px) {
 		}
 	}
 	.section-title{
-		>span{
-			white-space: normal;
-		}
+		font-size: 25px;
 	}
 	
 }
@@ -2176,6 +2175,7 @@ and (orientation : landscape) {
 		}
 	}
 }
+
 
 
 @media only screen 
@@ -2615,7 +2615,7 @@ and (max-device-width : 960px){
 	.featureclock{
 		padding-bottom: 0;
 		margin-top: 30px;
-		.title-set{
+		.title-set,.section-title{
 			margin-bottom: 30px;
 		}
 		.clock-child{
@@ -2664,7 +2664,7 @@ and (max-device-width : 960px){
 	.clockslider{
 		min-height: 0;
 		height: auto;
-		.title-set{
+		.title-set,.section-title{
 			margin-top: 30px;
 			margin-bottom: 30px;
 		}
