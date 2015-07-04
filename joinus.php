@@ -59,7 +59,7 @@
 				<div style="text-align: center;"> 
 					<ul class="join-contact">
 						<li><span class="icon icon-phone"></span> <a href="tel:0-2541-5112-3">0-2541-5112-3</a></li>
-						<li><span class="icon icon-mail2"></span> <a href="mailto:hr@yourdomain.com">hr@yourdomain.com</a></li>
+						<li><span class="icon icon-mail2"></span> <a href="mailto:hr@rhythm-thailandagent.com">hr@rhythm-thailandagent.com</a></li>
 					</ul>
 				</div>
 			</div>

@@ -1338,15 +1338,20 @@ aside{
 			    -moz-column-gap: 40px;
 			    column-gap: 40px;
 				li{
-					
+					margin-top: 5px;
+					margin-bottom: 5px;
 					table{
+						
 						tr{
 							td{
 								color: #664646;
 								font-size: 13px;
+								/*
 								padding-top: 5px;
 								padding-bottom: 5px;
+								*/
 								text-align: right;
+								vertical-align: middle;
 								&:first-child{
 									width: 180px;
 									text-indent: 30px;

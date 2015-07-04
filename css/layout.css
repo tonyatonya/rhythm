@@ -1422,12 +1422,20 @@ aside.left-col h2 {
   column-gap: 40px;
 }
 
+.dep-list .dep-list-child .dep-list-name ul li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .dep-list .dep-list-child .dep-list-name ul li table tr td {
   color: #664646;
   font-size: 13px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  /*
+								padding-top: 5px;
+								padding-bottom: 5px;
+								*/
   text-align: right;
+  vertical-align: middle;
 }
 
 .dep-list .dep-list-child .dep-list-name ul li table tr td:first-child {
