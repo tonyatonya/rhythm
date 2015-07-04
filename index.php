@@ -25,9 +25,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
+<!--
 					<fieldset class="title-set watch-slide">
 						<legend><?php echo($featureW); ?></legend>
 					</fieldset>
+-->
+					<h2 class="section-title"><span><?php echo($featureW); ?></span></h2>
 					<div class="watch-slide">
 						<div class="watch-frame">
 							<ul class="train">
@@ -71,10 +74,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
+<!--
 					<fieldset class="title-set watch-slide">
 						<legend><?php echo($featureC); ?></legend>
 					</fieldset>
-					
+-->
+					<h2 class="section-title"><span><?php echo($featureC); ?></span></h2>
 				</div>
 				
 				<div class="col-lg-6 col-md-6 col-sm-6">

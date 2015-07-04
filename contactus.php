@@ -19,9 +19,12 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-12 col-sm-12">
+<!--
 				<fieldset class="title-set watch-slide">
 					<legend><?php echo($contact); ?></legend>
 				</fieldset>
+-->
+				<h2 class="section-title"><span><?php echo($contact); ?></span></h2>
 			</div>
 			<div class="col-lg-5 col-md-5 col-sm-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 contact-info">
 				<table class="table">

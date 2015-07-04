@@ -19,9 +19,12 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-12 col-sm-12">
+<!--
 				<fieldset class="title-set watch-slide">
 					<legend><?php echo($join); ?></legend>
 				</fieldset>
+-->
+				<h2 class="section-title"><span><?php echo($join); ?></span></h2>
 			</div>
 		</div>
 		<div class="row">

@@ -393,6 +393,8 @@ fieldset{
 				width: auto !important;
 			    -webkit-padding-start: 15px;
 			    -webkit-padding-end: 15px;
+			    -moz-padding-start: 15px;
+			    -moz-padding-end: 15px;
 			    background: transparent;
 			    border-bottom:0;
 			    color: $gold;
@@ -1645,6 +1647,28 @@ section.award{
 		}
 	}
 }
+.section-title{
+	display: table;
+	width: 100%;
+	text-align: center;
+	color: $gold;
+    font-size: 28px;
+    font-weight: normal;
+	&:after,&:before{
+		display: table-cell;
+		width: 50%;
+		content: ' ';
+		background-image: url(../images/middleline.png);
+		background-position: left center;
+		background-repeat: repeat-x;
+	}
+	>span{
+		display: table-cell;
+		white-space: nowrap;
+		padding: 0 9px;
+	}
+	
+}
 
 /******************* media query ********************/
 @media only screen 
@@ -1973,6 +1997,11 @@ and (max-device-width : 480px) {
 					padding-right: 0;
 				}
 			}
+		}
+	}
+	.section-title{
+		>span{
+			white-space: normal;
 		}
 	}
 	

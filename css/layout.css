@@ -376,6 +376,8 @@ fieldset.title-set legend {
   width: auto !important;
   -webkit-padding-start: 15px;
   -webkit-padding-end: 15px;
+  -moz-padding-start: 15px;
+  -moz-padding-end: 15px;
   background: transparent;
   border-bottom: 0;
   color: #a8a318;
@@ -1768,6 +1770,30 @@ section.award {
   font-size: 13px;
 }
 
+.section-title {
+  display: table;
+  width: 100%;
+  text-align: center;
+  color: #a8a318;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.section-title:after, .section-title:before {
+  display: table-cell;
+  width: 50%;
+  content: ' ';
+  background-image: url(../images/middleline.png);
+  background-position: left center;
+  background-repeat: repeat-x;
+}
+
+.section-title > span {
+  display: table-cell;
+  white-space: nowrap;
+  padding: 0 9px;
+}
+
 /******************* media query ********************/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .desktop {
@@ -2030,6 +2056,9 @@ section.award {
   .award-content-slider .award-content-slider-frame .content-child h3 {
     padding-left: 0;
     padding-right: 0;
+  }
+  .section-title > span {
+    white-space: normal;
   }
 }
 

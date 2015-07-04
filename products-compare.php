@@ -20,9 +20,12 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-12">
+<!--
 				<fieldset class="title-set">
 					<legend><?php echo($comp); ?></legend>
 				</fieldset>
+-->
+				<h2 class="section-title"><span><?php echo($comp); ?></span></h2>
 			</div>
 		</div>
 		<div class="row">
@@ -86,9 +89,12 @@
 		<div class="clear"></div>
 		<div class="row product-list">
 			<div class="col-lg-12">
+<!--
 				<fieldset class="title-set">
 					<legend><?php echo($youmaylike); ?></legend>
 				</fieldset>
+-->
+				<h2 class="section-title"><span><?php echo($youmaylike); ?></span></h2>
 			</div>
 			<div class="clear" style="height: 15px;"></div>
 			<?php for($i=0;$i<4;$i++){ ?>

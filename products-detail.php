@@ -80,9 +80,12 @@
 						</div>
 					</div>
 					<!-- relate products-->
+<!--
 					<fieldset class="title-set">
 						<legend><?php echo($relatep); ?></legend>
 					</fieldset>
+-->
+					<h2 class="section-title"><span><?php echo($relatep); ?></span></h2>
 					<div class="relate-products">
 						<div class="row product-list">
 					<?php for($i=0;$i<3;$i++){ ?>
