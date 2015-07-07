@@ -43,7 +43,7 @@
 							<table>
 								<tr>
 									<td>Marketing</td>
-									<td>2  <?php echo($jointext2); ?></td>
+									<td>2  <?php echo($capa); ?></td>
 									<td>10/10/2015</td>
 								</tr>
 							</table>
