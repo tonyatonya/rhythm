@@ -725,17 +725,13 @@ fieldset{
 			*/
 			
 			li{
-				width: 48%;
-				min-height: 110px;
+				width: 50%;
 				float: left;
 				&:first-child{
 					padding-top: 7px;
 				}
 				&:last-child{
 					border-bottom: 1px dashed #bbbdbf;
-				}
-				&:nth-child(even){
-					margin-left: 4%;
 				}
 			}
 		}
@@ -1414,31 +1410,24 @@ aside{
 		.dep-list-name{
 			margin-top: 15px;
 			width: 100%;
-			text-align: left;
+			text-align: center;
 			ul{
 				margin-top: 50px;
 				padding: 0;
 				display: inline-block;
 				list-style: none;
-				min-width: 100%;
-				/*
+				width: 750px;
 				-webkit-columns: 2;
 				-moz-columns: 2;
 				columns: 2;
 				-webkit-column-gap: 40px;
 			    -moz-column-gap: 40px;
 			    column-gap: 40px;
-			    */
 				li{
 					margin-top: 5px;
 					margin-bottom: 5px;
-					width: 50%;
-					display: inline;
-					float: left;
-					padding-left: 100px;
-					padding-right: 100px;
 					table{
-						width: 100%;
+						
 						tr{
 							td{
 								color: #664646;
@@ -1871,8 +1860,6 @@ and (max-device-width : 480px) {
 		}
 	}
 	.search-bar{
-		button{width: 100%;}
-		select{width: 100%;}
 		.row{
 			margin: 0;
 			.input-group{
@@ -1890,7 +1877,7 @@ and (max-device-width : 480px) {
 		}
 	}
 	.featureclock{
-		
+		padding-bottom: 0;
 		margin-top: 30px;
 		.title-set,.section-title{
 			margin-bottom: 30px;
@@ -1935,11 +1922,6 @@ and (max-device-width : 480px) {
 				-webkit-column-count: 1;
 				-moz-column-count: 1;
 				column-count: 1;
-				li{
-					width: 100%;
-					margin: 0;
-					&:nth-child(even){margin: 0;}
-				}
 			}
 		}
 	}
@@ -2001,18 +1983,12 @@ and (max-device-width : 480px) {
 				text-align: center;
 				ul{
 					margin-top: 50px;
-					min-width: 100%;
 					width: 100%;
 					list-style: none;
-					/*
 					-webkit-columns: 1;
 					-moz-columns: 1;
 					columns: 1;
-					*/
 					li{
-						width: 100%;
-						padding-left: 15px;
-						padding-right: 15px;
 						table{
 							width: 100%;
 							tr{
@@ -2131,11 +2107,7 @@ and (max-device-width : 480px) {
 	}
 	.section-title{
 		font-size: 25px;
-		span{
-			font-size: 20px;
-		}
 	}
-	
 	
 }
 
@@ -2496,11 +2468,6 @@ and (orientation : landscape) {
 				-webkit-column-count: 1;
 				-moz-column-count: 1;
 				column-count: 1;
-				li{
-					width: 100%;
-					margin: 0;
-					&:nth-child(even){margin: 0;}
-				}
 			}
 		}
 	}
@@ -2512,16 +2479,12 @@ and (orientation : landscape) {
 				text-align: center;
 				ul{
 					margin-top: 50px;
-					min-width: 100%;
 					width: 100%;
 					list-style: none;
-					/*
 					-webkit-columns: 1;
 					-moz-columns: 1;
 					columns: 1;
-					*/
 					li{
-						width: 100%;
 						table{
 							width: 100%;
 							tr{
@@ -2733,11 +2696,6 @@ and (orientation : landscape) {
 				-webkit-column-count: 1;
 				-moz-column-count: 1;
 				column-count: 1;
-				li{
-					width: 100%;
-					margin: 0;
-					&:nth-child(even){margin: 0;}
-				}
 			}
 		}
 	}
@@ -2751,14 +2709,10 @@ and (orientation : landscape) {
 					margin-top: 50px;
 					width: 100%;
 					list-style: none;
-					/*
 					-webkit-columns: 1;
 					-moz-columns: 1;
 					columns: 1;
-					*/
-					min-width:100%;
 					li{
-						
 						table{
 							width: 100%;
 							tr{
@@ -2884,7 +2838,7 @@ and (max-device-width : 960px){
 		}
 	}
 	.featureclock{
-		
+		padding-bottom: 0;
 		margin-top: 30px;
 		.title-set,.section-title{
 			margin-bottom: 30px;
@@ -2924,7 +2878,6 @@ and (max-device-width : 960px){
 				}
 			}
 		}
-		
 	}
 	.dep-list{
 		.dep-list-child{
@@ -2936,14 +2889,10 @@ and (max-device-width : 960px){
 					margin-top: 50px;
 					width: 100%;
 					list-style: none;
-					/*
 					-webkit-columns: 1;
 					-moz-columns: 1;
 					columns: 1;
-					*/
-					min-width: 100%;
 					li{
-						width:100%;
 						table{
 							width: 100%;
 							tr{
@@ -3085,14 +3034,10 @@ and (orientation : landscape){
 					margin-top: 50px;
 					width: 100%;
 					list-style: none;
-					/*
 					-webkit-columns: 1;
 					-moz-columns: 1;
 					columns: 1;
-					*/
-					min-width: 100%;
 					li{
-						width: 100%;
 						table{
 							width: 100%;
 							tr{
@@ -3131,86 +3076,7 @@ and (max-device-width : 1024px){
 	.mobile{
 		display: none !important;
 	}
-	.dep-list{
-		.dep-list-child{
-			.dep-list-name{
-				margin-top: 15px;
-				width: 100%;
-				text-align: center;
-				ul{
-					margin-top: 50px;
-					width: 100%;
-					list-style: none;
-					/*
-					-webkit-columns: 1;
-					-moz-columns: 1;
-					columns: 1;
-					*/
-					min-width:100%;
-					li{
-						width: 50%;
-						display: inline;
-						float: left;
-						padding-left: 100px;
-						padding-right: 100px;
-						table{
-							width: 100%;
-							tr{
-								td{
-									&:first-child{
-										width: auto;
-										text-indent: 0;
-									}
-									&:last-child{
-										width: 15px;
-									}
-								}
-							}
-						}
-					}
-					
-				}
-			}
-		}
-	}
-	footer{
-		.categorymenu{
-			text-align: left;
-			width: 25%;
-		}
-		#footernav{
-			clear: both;
-			display: block;
-			width: 100%;
-			ul{
-				width: 100%;
-				li{
-					display:inline;
-					text-align: left;
-					float: left;
-					width: auto;
-					
-					border-bottom:none;
-					padding-top:0px;
-					padding-bottom:0px;
-					&:after{
-						content: " | ";
-					}
-					&:last-child{
-						border:none;
-					}
-				}
-			}
-		}
-		address{
-			text-align: right;
-			margin-top: 15px;
-			margin-bottom: 15px;
-		}
-		.foot-icon{
-			text-align: right;
-		}
-	}
+	
 }
 @media only screen 
 and (min-device-width : 768px) 
@@ -3289,48 +3155,6 @@ and (orientation : portrait) {
 		}
 		.foot-icon{
 			text-align: right;
-		}
-	}
-	.dep-list{
-		.dep-list-child{
-			.dep-list-name{
-				margin-top: 15px;
-				width: 100%;
-				text-align: center;
-				ul{
-					margin-top: 50px;
-					width: 100%;
-					list-style: none;
-					/*
-					-webkit-columns: 1;
-					-moz-columns: 1;
-					columns: 1;
-					*/
-					min-width:100%;
-					li{
-						width: 50%;
-						display: inline;
-						float: left;
-						padding-left: 100px;
-						padding-right: 100px;
-						table{
-							width: 100%;
-							tr{
-								td{
-									&:first-child{
-										width: auto;
-										text-indent: 0;
-									}
-									&:last-child{
-										width: 15px;
-									}
-								}
-							}
-						}
-					}
-					
-				}
-			}
 		}
 	}
 }
