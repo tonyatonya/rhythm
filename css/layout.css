@@ -595,7 +595,6 @@ fieldset.title-set legend {
 
 .featureclock .clockbanner {
   min-height: 300px;
-  background-color: gray;
 }
 
 .news-list:after {
@@ -2043,6 +2042,12 @@ section.award {
   .clockslider .title-set, .clockslider .section-title {
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  .clockslider .watch-slide .watch-frame ul li {
+    max-width: none;
+  }
+  .clockslider .watch-slide .watch-frame ul li .cat img {
+    height: auto;
   }
   .contact-info table {
     width: 100%;

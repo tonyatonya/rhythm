@@ -626,7 +626,6 @@ fieldset{
 	}
 	.clockbanner{
 		min-height: 300px;
-		background-color: gray;
 	}
 }
 .news-list{
@@ -1957,6 +1956,20 @@ and (max-device-width : 480px) {
 		.title-set,.section-title{
 			margin-top: 30px;
 			margin-bottom: 30px;
+		}
+		.watch-slide{
+			.watch-frame{
+				ul{
+					li{
+						max-width: none;
+						.cat{
+							img{
+								height: auto;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 	.contact-info{
