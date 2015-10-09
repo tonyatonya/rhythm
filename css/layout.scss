@@ -636,7 +636,7 @@ fieldset{
 	}	
 	ul{
 		list-style: none;
-		margin-bottom: 28px;
+		margin-bottom: 30px;
 		li{
 			border-bottom: 1px dashed #bbbdbf;
 			padding-top:7px;
@@ -945,6 +945,8 @@ aside{
 		text-align: center;
 		border:1px solid #e6e7e8;
 		margin-bottom: 30px;
+		padding-bottom: 30px;
+		position: relative;
 		-moz-transition: all 0.1s ease-in;
 		-webkit-transition: all 0.1s ease-in;
 		-o-transition: all 0.1s ease-in;
@@ -991,6 +993,15 @@ aside{
 				top:5px;
 				width: 15px;
 				height: 15px;
+			}
+		}
+		.note{
+			position: absolute;
+			right: 5px;
+			bottom: 5px;
+			z-index: 999;
+			&:hover{
+				color: $gold;
 			}
 		}
 	}
@@ -1434,8 +1445,8 @@ aside{
 					width: 50%;
 					display: inline;
 					float: left;
-					padding-left: 100px;
-					padding-right: 100px;
+					padding-left: 80px;
+					padding-right: 80px;
 					table{
 						width: 100%;
 						tr{
@@ -1765,7 +1776,6 @@ section.award{
 	}
 	
 }
-
 .video{
 	width: 100%;
 	padding: 15px;
@@ -1781,6 +1791,16 @@ section.award{
 		}
 	}	
 }
+.home-align{
+	position: relative;
+	height: 465px;
+	.learnmore{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+}
+
 
 /******************* media query ********************/
 @media only screen 
@@ -2148,7 +2168,13 @@ and (max-device-width : 480px) {
 			font-size: 20px;
 		}
 	}
-	
+	.home-align{
+		position: relative;
+		height:auto;
+		.learnmore{
+			position: relative;
+		}
+	}
 	
 }
 
@@ -2206,6 +2232,13 @@ and (orientation : landscape) {
 		min-height: initial;
 		table{
 			width: 100%;
+		}
+	}
+	.home-align{
+		position: relative;
+		height:auto;
+		.learnmore{
+			position: relative;
 		}
 	}
 }
@@ -2315,6 +2348,13 @@ and (orientation : landscape) {
 					padding-right: 0;
 				}
 			}
+		}
+	}
+	.home-align{
+		position: relative;
+		height:auto;
+		.learnmore{
+			position: relative;
 		}
 	}
 }
@@ -2555,7 +2595,13 @@ and (orientation : landscape) {
 			}
 		}
 	}
-	
+	.home-align{
+		position: relative;
+		height:auto;
+		.learnmore{
+			position: relative;
+		}
+	}
 }
 
 @media only screen 
@@ -2792,6 +2838,13 @@ and (orientation : landscape) {
 			}
 		}
 	}
+	.home-align{
+		position: relative;
+		height:auto;
+		.learnmore{
+			position: relative;
+		}
+	}
 }
 
 @media only screen 
@@ -2993,6 +3046,13 @@ and (max-device-width : 960px){
 			margin-bottom: 30px;
 		}
 	}
+	.home-align{
+		position: relative;
+		height:auto;
+		.learnmore{
+			position: relative;
+		}
+	}
 }
 @media only screen 
 and (min-device-width : 540px) 
@@ -3124,6 +3184,13 @@ and (orientation : landscape){
 					
 				}
 			}
+		}
+	}
+	.home-align{
+		position: relative;
+		height:auto;
+		.learnmore{
+			position: relative;
 		}
 	}
 }
